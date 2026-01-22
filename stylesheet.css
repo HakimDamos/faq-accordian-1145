@@ -152,3 +152,136 @@ footer .attribution a {
 }
 
 /* Media Query Section */
+
+/* Media Queries for Tablet in 375px */
+@media screen and (min-width: 375px) {
+  main {
+    max-width: 350px;
+    height: 35rem;
+    padding: 2rem 1.5rem 0rem;
+  }
+  .main-header {
+    font-size: 1.1rem;
+  }
+  .main-header__icon {
+    width: 2rem;
+    height: 2rem;
+  }
+  .main-header__icon img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+  .accordian-item__list {
+    gap: 0.5rem;
+  }
+  .accordian-item__question {
+    font-size: 1rem;
+    width: 14rem;
+  }
+  .accordian-item__frame {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  .accordian-item__image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+  .accordian-item__answer {
+    line-height: 1.55rem;
+    font-size: 1rem;
+    word-spacing: -0.1em;
+  }
+  footer {
+    width: 13rem;
+    margin-inline: auto;
+  }
+}
+
+/* Media Queries for Tablet in 500px */
+@media screen and (min-width: 499px) {
+  main {
+    max-width: 600px;
+    height: 35rem;
+    padding: 2rem 2rem;
+  }
+  .main-header {
+    font-size: 1.3rem;
+  }
+  .main-header__icon {
+    width: 2rem;
+    height: 2rem;
+  }
+  .main-header__icon img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+  .accordian-item__list {
+    gap: 2rem;
+  }
+  .accordian-item__question {
+    font-size: 1rem;
+    width: 15rem;
+  }
+  .accordian-item__frame {
+    width: 2rem;
+    height: 2rem;
+  }
+  .accordian-item__image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+  .accordian-item__answer {
+    max-width: 18rem;
+    text-align: justify;
+  }
+}
+
+/* Media Queries for Tablet in 1025px */
+@media screen and (min-width: 1024px) {
+  .header-bg {
+    height: 35vh;
+  }
+  main {
+    width: 500px;
+    max-width: 800px;
+    height: 30rem;
+    padding: 1.5rem;
+  }
+  .main-header {
+    font-size: 1.5rem;
+  }
+  .main-header__icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .main-header__icon img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+  .accordian-item__list {
+    gap: 0rem;
+  }
+  .accordian-item__question {
+    font-size: 1rem;
+    width: 25rem;
+    font-weight: var(--fw-700);
+  }
+  .accordian-item__answer {
+    max-width: 25rem;
+  }
+}
+
+/* Media Queries for Tablet in 1440px */
+@media screen and (min-width: 1440px) {
+  main {
+    padding: 2rem 1.5rem;
+  }
+  .accordian-item__list {
+    gap: 2rem;
+  }
+}

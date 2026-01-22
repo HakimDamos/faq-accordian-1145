@@ -39,9 +39,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Media Queries 375px](./screenshot.jpg)
-![Media Queries 1025px](./screenshot.jpg)
-![Media Queries 1440px](./screenshot.jpg)
+![Media Queries 375px](./screenshot/Screenshot%20Media%20Queries%20375px.png)
+![Media Queries 1025px](./screenshot/Screenshot%20Media%20Queries%201025px.png)
+![Media Queries 1440px](./screenshot/Screenshot%20Media%20Queries%201440px.png)
 
 ### Links
 
@@ -88,8 +88,6 @@ const proudOfThisFunc = () => {
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
 ### Useful resources
@@ -99,7 +97,6 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@HakimDamos](https://www.frontendmentor.io/profile/HakimDamos)
 
 ## Acknowledgments
